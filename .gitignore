@@ -1,0 +1,26 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Large data & model files (prevents accidental commits)
+data/processed_news.csv
+*.pkl
+*.joblib
+
+# Local dataset files (too large for GitHub)
+data/Fake.csv
+data/True.csv
